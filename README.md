@@ -16,7 +16,7 @@ To set up and run the project, you'll need to install the following Python packa
 
 You can install these packages using pip:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`pip install pandas numpy chess tqdm torch`
+`pip install pandas numpy chess tqdm torch`
 
 ## Usage
 
@@ -26,7 +26,7 @@ The training script is located in main.py. The ChessDataset class loads and proc
 
 To start training, run the following command:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`python main.py`
+`python main.py`
 
 ### Predicting the Best Move
 
@@ -34,7 +34,7 @@ The prediction script is located in predict.py. This script loads a pre-trained 
 
 To predict the best move for a given position, run the following command and follow the prompts:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`python predict.py`
+`python predict.py`
 
 ### Customizing Training and Prediction
 
@@ -54,7 +54,7 @@ You can customize the training process and prediction by modifying certain param
 
 The project directory is organized as follows:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`ChessEngine/  ├── data/  │   └── filtered_chess_games.csv  ├── models/  │   ├── model.pth  ├── main.py  ├── predict.py  └── README.md`
+`ChessEngine/  ├── data/  │   └── filtered_chess_games.csv  ├── models/  │   ├── model.pth  ├── main.py  ├── predict.py  └── README.md`
 
 - data/: Contains the dataset of filtered high-rated chess games.
 - models/: Contains pre-trained models.
