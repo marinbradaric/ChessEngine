@@ -54,16 +54,6 @@ You can customize the training process and prediction by modifying certain param
 
 The project directory is organized as follows:
 
-`ChessEngine/  
-├── data/  
-│   └── filtered_chess_games.csv  
-├── models/  
-│   └── model.pth  
-├── main.py  
-├── predict.py  
-└── README.md
-└── LICENCE`
-
 - data/: Contains the dataset of filtered high-rated chess games.
 - models/: Contains pre-trained models.
 
